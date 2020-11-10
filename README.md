@@ -3,7 +3,7 @@
 - Files install of basic
 
         npm init -y
-        npm i typescript webpack webpack-cli webpack-dev-server ts-loader html-webpack-plugin
+        npm i typescript webpack webpack-cli webpack-dev-server ts-loader html-webpack-plugin clean-webpack-plugin css-loader
 
         1 package.json
         => build = webpack
@@ -26,11 +26,13 @@
   - execute `npm run start` for see result in browser
   - enjoye
 
+* code in file index.ts for your typescript and execute command "install"
+
 * warning
 
   - delete remote of this project github for developp your personal project
 
-    - command `git remote rm nameofremote (origin or any remote of your choice)`
+    - `delete folder **.git** for remove remote of github project`
     - **forbidden** write and push this branch and project
     - verified version dependency of webpack if problem
 
