@@ -1,6 +1,7 @@
 // for path of properties in this document
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   // file dote entry for analyse of code
@@ -33,6 +34,7 @@ module.exports = {
   // here run this assets (img, movie, ...)
   // this create file html with bundle of files generate
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, './src/index.html'),
     }),
