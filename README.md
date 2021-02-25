@@ -1,4 +1,6 @@
-# typescript webpack basic
+# No more update
+
+- typescript webpack basic
 
 - Files install of basic
 
